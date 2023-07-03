@@ -1,0 +1,58 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+
+
+.general_div{
+    display: flex;
+    gap: 50px;
+    padding-top: 100px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.first_div{
+    background-color: aqua;
+    padding:100px ;
+    cursor: pointer;
+}
+
+
+.first_div:hover{
+    /* background-color: bisque; */
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.second_div{
+    background-color: rgb(24, 11, 172);
+    padding: 100px;
+    cursor: pointer;
+}
+
+.third_div{
+    background-color: rgb(172, 92, 11);
+    padding: 100px;
+}
+
+.fouth_div{
+    background-color: red;
+    padding: 100px;
+}
+
+
+.general_div_grid{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    /* gap: 10px; */
+    grid-gap: 50px;
+}
